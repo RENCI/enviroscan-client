@@ -11,6 +11,7 @@ import Sociodemographic from "./components/pages/main/Sociodemographic";
 import Water from "./components/pages/subpage/Water"
 import Soil from "./components/pages/subpage/Soil";
 import Air from "./components/pages/subpage/Air";
+import Justice from "./components/pages/main/Justice";
 import { ScrollToTop } from './components/ScrollToTop';
 
 import 'semantic-ui-css/semantic.min.css'
@@ -30,6 +31,7 @@ function App() {
                 <Soil path="environmental-indicators/soil" />
                 <Air path="environmental-indicators/air" />
                 <Sociodemographic path="sociodemographic-indicators" />
+                <Justice path="environmental-justice" />
                 <Health path="health-outcomes" />
               </ScrollToTop>
             </ReachRouter>
