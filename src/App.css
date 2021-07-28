@@ -2,12 +2,14 @@
   text-align: center;
   position: relative;
   min-height: 100vh;
-  font-size: 12.5pt !important;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 13pt !important;
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: whitesmoke;
 }
 
 .pageBody {
   min-height: 100vh;
+  margin-bottom: 4em !important;
 }
 
 .page-contain {
@@ -16,44 +18,150 @@
   max-width:  1080px;
 }
 
-.page-footer {
-  position: absolute;
-  bottom: 0;
+#navbar {
+  margin-top: 0 !important;
+}
+
+#nav-topbar {
+  height: 40px !important;
+}
+
+#page-footer {
+  margin: auto;
   width: 100%;
-  height: 2.5rem;  
-}
-.data-btn {
-  background-color: #F9A97F !important;
-}
-
-.location-btn {
-  background-color: #55A4DB !important;
+  height: 20%;
+  clip-path: polygon(0 24%, 100% 0, 100% 100%, 0% 100%);
+  font-size: 0.8rem !important;
+  clear: both;
 }
 
-.resource-btn {
-  background-color: #FEEC7B !important;
+#footer-grid {
+  background-color: #4c4c4c;
+  color: #fff;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer-row {
+  height: auto;
+  padding: 4rem 0em 2rem 0rem !important;
 }
 
-.App-link {
-  color: #61dafb;
+.search-btn {
+  background-color: #22497C !important;
+  color: #fff !important;
+}
+.search-btn:hover {
+  color: #000 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ui.menu, .ui.button, .ui.header {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* this one isn't registered for some reason! */
+a.item.nav-link.submenu[aria-current="page"] {
+  background-color: #2479B6 !important;
+}
+/* this is the child of above selector yet it works */
+.nav-link.submenu[aria-current="page"] > span.text {
+  color: #2479B6 !important;
+  text-decoration: underline solid #2479B6 2px !important;
+  font-weight: 600 !important;
+}
+
+#hero-container {
+  background-image: url("./images/home/Hero_NC_Brevard.png");
+  background-repeat: no-repeat;
+  background-position: 0% 80%;
+  height: 600px;
+  max-width: 1370px;
+}
+
+#hero-title {
+  color: #fff !important;
+  width: 70% !important;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: lighter;
+  position: absolute;
+    left: 30px;
+    top: 100px;
+}
+
+#man-img {
+  position: absolute;
+    bottom: -28px;
+    left: -15px;
+  z-index: 1;
+  transform: rotate(-2deg);
+}
+
+#hero-btn {
+  width: 300px;
+  padding: .8em !important;
+  position: absolute;
+    right: 20px;
+    top: 100px;
+}
+
+#hero-map {
+  position: absolute;
+    right: 20px;
+    top: 135px;
+}
+
+#enviroscan-info {
+  background: rgb(77,201,245);
+  background: linear-gradient(90deg, rgba(77,201,245,1) 0%, rgba(36,121,182,1) 33%);
+  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+  position: absolute;
+    bottom: -10px;
+  width: 100%;
+  height: 250px;
+  z-index: 0;
+}
+
+#enviroscan-info > p {
+  color: #fff;
+  text-align: left !important;
+  font-size: 0.75em;
+  position: relative;
+    top: 80px;
+  max-width: 75%;
+  margin-left: 20% !important;
+  z-index: 2;
+}
+
+#home-links {
+  margin-top: 5% !important;
+}
+
+#data {
+  padding: 1em;
+  border-top-left-radius: 25px;
+  text-align: center !important;
+  background: rgb(246,149,124);
+  background: linear-gradient(0deg, rgba(246,149,124,1) 50%, rgba(250,173,108,1) 100%);
+}
+
+#facts {
+  padding: 1em;
+  text-align: center !important;
+  background: rgb(85,164,219);
+  background: linear-gradient(0deg, rgba(85,164,219,1) 50%, rgba(77,201,245,1) 100%);
+}
+
+#resources {
+  padding: 1em;
+  border-top-right-radius: 25px;
+  text-align: center !important;
+  background: rgb(255,212,121);
+  background: linear-gradient(0deg, rgba(255,212,121,1) 50%, rgba(254,236,123,1) 100%);
+}
+
+.page-title {
+  color: #22497C !important;
+}
+.page-subtitle {
+  color: #55A4DB !important;
 }
