@@ -42,6 +42,7 @@ function Home() {
             <List bulleted>
               <List.Item as={Link} to="environmental-indicators/water">Environmental Indicators: Water</List.Item>
               <List.Item as={Link} to="sociodemographic-indicators">Sociodemographic Indicators</List.Item>
+              <List.Item as={Link} to="environmental-justice">Environmental Justice Indicators</List.Item>
               <List.Item as={Link} to="health-outcomes">Health outcomes</List.Item>
             </List>
           </Grid.Column>
