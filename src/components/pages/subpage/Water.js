@@ -37,10 +37,8 @@ const Water = () => {
               Which environmental indicators can I explore?
             </Item.Header>
             <Item.Description>
-              In the <a href="https://enviroscan-map.renci.org/" target="_blank" rel="noreferrer">ENVIROSCAN mapping tool</a>
-              we provide data on toxic metals, including arsenic, cadmium, lead
-              and manganese, that have been documented in private well water in
-              North Carolina.
+              In the <a href="https://enviroscan-map.renci.org/" target="_blank" rel="noreferrer">ENVIROSCAN mapper tool</a> we provide data on toxic metals, including arsenic, cadmium, lead
+              and manganese, that have been documented in private well water in North Carolina.
             </Item.Description>
           </Item.Content>
         </Item>

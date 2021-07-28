@@ -31,6 +31,10 @@ export const NavbarData = [
         to: "/sociodemographic-indicators"
     },
     {
+        name: "Environmental Justice Indicators",
+        to: "/environmental-justice"
+    },
+    {
         name: "Health Outcomes",
         to: "/health-outcomes"
     }

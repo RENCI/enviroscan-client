@@ -15,10 +15,10 @@ function Home() {
           <Header id="hero-title">
             North Carolina ENVIROSCAN helps communities increase awareness of key environmental and societal factors that can impact health.
           </Header>
-          <Button color="blue" attached="top" href="https://enviroscan-map.renci.org/" target="_blank" id="hero-btn">
-            <Icon name="external alternate" /> Launch Mapping Tool
+          <Button icon color="blue" href="https://enviroscan-map.renci.org/" target="_blank" id="hero-btn">
+            <Icon name="external alternate" /> Launch ENVIROSCAN Mapper
           </Button>
-          <Image src={mapImg} alt="NC Enviroscan Mapping Tool" size="medium" id="hero-map" />
+          <Image src={mapImg} alt="NC Enviroscan Mapping Tool" size="medium" id="hero-map" href="https://enviroscan-map.renci.org/" target="_blank" />
           <Image src={drinkWater} alt="Man drinking water" size="medium" id="man-img" />
           <span id="enviroscan-info">
               <p>NC ENVIROSCAN allows users to visualize trends across environmental contaminants, sociodemographic information, environmental justice indicators, and health outcomes throughout North Carolina.</p>
@@ -47,7 +47,7 @@ function Home() {
           </Grid.Column>
           <Grid.Column width={4}>
             <List bulleted>
-              <List.Item as='a' href="https://enviroscan-map.renci.org/" target="_blank">Open Mapping Tool</List.Item>
+              <List.Item as='a' href="https://enviroscan-map.renci.org/" target="_blank">Open ENVIROSCAN Mapper</List.Item>
               {/* <List.Item as='a'>Search by location</List.Item> */}
             </List>
           </Grid.Column>

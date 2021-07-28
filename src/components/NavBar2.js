@@ -13,7 +13,7 @@ const NavBar2 = () => {
   return (
     <div className="header-bar">
       <img src={topBar} alt="" id="nav-topbar" />
-      <Menu borderless widths="5" id="navbar">
+      <Menu borderless widths="6" id="navbar">
         {/* Logo */}
         <Menu.Item header as={Link} to="/">
           <Image src={logo} alt="ENVIROSCAN logo" size="small" />
