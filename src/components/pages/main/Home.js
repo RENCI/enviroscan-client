@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Grid, Button, List, Header, Icon } from "semantic-ui-react"
-import { Link } from "@reach/router";
+import { Link } from '../../Link';
 
 import mapImg from "../../../images/home/Map_Tool_Img.jpg"
 import drinkWater from "../../../images/home/Man_Drinking_Water.png"
@@ -42,7 +42,7 @@ function Home() {
             <List bulleted>
               <List.Item as={Link} to="environmental-indicators/water">Environmental Indicators: Water</List.Item>
               <List.Item as={Link} to="sociodemographic-indicators">Sociodemographic Indicators</List.Item>
-              <List.Item as={Link} to="environmental-justice">Environmental Justice Indicators</List.Item>
+              <List.Item as={Link} to="/environmental-justice-indicators">Environmental Justice Indicators</List.Item>
               <List.Item as={Link} to="health-outcomes">Health outcomes</List.Item>
             </List>
           </Grid.Column>

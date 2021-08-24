@@ -32,7 +32,7 @@ export const NavbarData = [
     },
     {
         name: "Environmental Justice Indicators",
-        to: "/environmental-justice"
+        to: "/environmental-justice-indicators"
     },
     {
         name: "Health Outcomes",

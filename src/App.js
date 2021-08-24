@@ -7,7 +7,7 @@ import Footer from "./components/Footer"
 import Home from "./components/pages/main/Home";
 import Health from "./components/pages/main/Health";
 import Sociodemographic from "./components/pages/main/Sociodemographic";
-// import Environment from "./components/pages/subpage/Environment";
+import EnvironmentalJusticeIndicators from "./components/pages/subpage/EnvironmentalJusticeIndicators";
 import Water from "./components/pages/subpage/Water"
 import Soil from "./components/pages/subpage/Soil";
 import Air from "./components/pages/subpage/Air";
@@ -31,7 +31,7 @@ function App() {
                 <Soil path="environmental-indicators/soil" />
                 <Air path="environmental-indicators/air" />
                 <Sociodemographic path="sociodemographic-indicators" />
-                <Justice path="environmental-justice" />
+                <EnvironmentalJusticeIndicators path="/environmental-justice-indicators" />
                 <Health path="health-outcomes" />
               </ScrollToTop>
             </ReachRouter>
